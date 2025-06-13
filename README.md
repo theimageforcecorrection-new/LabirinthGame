@@ -2,7 +2,7 @@
 
 Simple console game
 
-## Usages:
+## Dependencies used:
 
 1. Critical business logic classes are covered with unit tests and integration tests using **NUnit**.
 
