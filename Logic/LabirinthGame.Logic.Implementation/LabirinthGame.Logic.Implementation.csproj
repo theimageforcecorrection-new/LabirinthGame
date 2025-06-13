@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\LabirinthGame.Common\LabirinthGame.Common.csproj" />
+    <ProjectReference Include="..\..\IO\LabirinthGame.IO.Common\LabirinthGame.IO.Common.csproj" />
+    <ProjectReference Include="..\..\Ui\LabirinthGame.Ui.MenuNavigation\LabirinthGame.Ui.MenuNavigation.csproj" />
+    <ProjectReference Include="..\..\Ui\LabirinthGame.Ui.TextUi\LabirinthGame.Ui.TextUi.csproj" />
+    <ProjectReference Include="..\LabirinthGame.Logic.ConsoleUi\LabirinthGame.Logic.ConsoleUi.csproj" />
+    <ProjectReference Include="..\LabirinthGame.Logic\LabirinthGame.Logic.csproj" />
+    <ProjectReference Include="..\Levels\LabirinthGame.Logic.Levels\LabirinthGame.Logic.Levels.csproj" />
+  </ItemGroup>
+
+</Project>
